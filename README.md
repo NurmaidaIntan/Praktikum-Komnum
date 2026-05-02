@@ -51,6 +51,8 @@ Algoritma program ini berjalan sesuai dengan ketentuan Metode Regulasi Falsi yan
 ## Penjelasan Program
 
 Dalam program kali ini, untuk mencapai hasil yang akurat, iteratif, dan efisien diperlukan beberapa library untuk menunjang terbentuknya hasil yang maksimal. Library itu sendiri adalah sebagai berikut:
+<div align="center">
+   
 | LIBRARY | FUNGSI |
 | :---: | :---: |
 | iostream | I/O standar |
@@ -58,6 +60,8 @@ Dalam program kali ini, untuk mencapai hasil yang akurat, iteratif, dan efisien 
 | cmath | fungsi matematika |
 | string | memproses tipe data string |
 | cctype | mengecek tipe karakter |
+
+</div>
 
 Selanjutnya, kita akan masuk ke `class falsi` untuk mengubah string menjadi sebuah nilai numerik. Pertama kita akan menyimpan rumus yang telah dimasukkan oleh user dengan `string teks`, menginisialisasi karakter yang sedang diproses dengan `indeks` dan  menggantikan variabel `x` dengan `double nilai_x`.
 ```cpp
